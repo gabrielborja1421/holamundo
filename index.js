@@ -6,6 +6,6 @@ app.get('/', (req, res) => {
   res.send('¡Hola, Mundo!');
 });
 
-app.listen(port, () => {
-  console.log(`El servidor está corriendo en http://localhost:${port}`);
+app.listen(3000, '0.0.0.0', () => {
+  console.log('Server running on port 3000');
 });
